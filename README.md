@@ -28,20 +28,20 @@ Telegram bot for collecting and aggregating team reports from Google Sheets/Driv
 Outcome: command-driven report generation and Vercel webhook runtime.
 Stack: TypeScript, Node.js, Google APIs, Vercel.
 
-### 4) [ApiNodeJs](https://github.com/DenisArger/ApiNodeJs)
-Lightweight JSON storage API with short ID retrieval.
-Outcome: simple backend service with Supabase persistence and clear API contract.
-Stack: Node.js, Express, Supabase.
+### 4) [MyAI](https://github.com/DenisArger/MyAI)
+Next.js Telegram AI assistant with OpenAI integration and Supabase-backed memory.
+Outcome: text/voice AI flows with persistent conversation history and media handling.
+Stack: TypeScript, Next.js, OpenAI API, Supabase, Telegram Bot API.
 
-### 5) [telegram-gitea-bot](https://github.com/DenisArger/telegram-gitea-bot)
-Webhook bridge between Gitea repository events and Telegram notifications.
-Outcome: automated PR/issue event delivery with user mapping support.
-Stack: Python, Flask, python-telegram-bot, Vercel.
+### 5) [Track_parser](https://github.com/DenisArger/Track_parser)
+Next.js application for radio track preparation and operator workflows.
+Outcome: ingest, classify, process, and upload audio tracks in one pipeline.
+Stack: TypeScript, Next.js, FFmpeg, Supabase, Netlify/Vercel.
 
-### 6) [notion-proxy](https://github.com/DenisArger/notion-proxy)
-Serverless proxy layer for secure Notion API access.
-Outcome: backend-mediated Notion calls for safer integration patterns.
-Stack: Node.js, Netlify Functions, Notion API.
+### 6) [ControlWork](https://github.com/DenisArger/ControlWork)
+Cross-platform desktop work-time tracker with break reminders.
+Outcome: tray-based UX, active-time accounting, and local persistence for daily focus control.
+Stack: Python, PySide6, SQLite.
 
 ## What I Focus On
 
@@ -71,7 +71,7 @@ Stack: Node.js, Netlify Functions, Notion API.
 - [Event Registration SaaS Case Study](./case-studies/event-registration-saas.md)
 - [Work Reports Bot Case Study](./case-studies/work-reports-bot.md)
 
-## About (Profile Header Draft)
+## About
 
 Backend engineer building Telegram-first automation systems with Node.js/TypeScript, Python, and API integrations (Supabase, Notion, Google, OpenAI).
 
