@@ -85,6 +85,11 @@ h2 {
   margin: 0 0 14px;
 }
 
+.section-note {
+  margin: 0 0 14px;
+  color: var(--muted);
+}
+
 .grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));

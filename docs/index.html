@@ -69,6 +69,14 @@
       </section>
 
       <section>
+        <h2>All Repositories</h2>
+        <p class="section-note">
+          Auto-loaded from GitHub API, sorted by last updated date.
+        </p>
+        <div id="all-repos" class="grid"></div>
+      </section>
+
+      <section>
         <h2>Кратко (RU)</h2>
         <p>
           Я разрабатываю Telegram-ботов, серверлес API и интеграции. Ниже выбраны
@@ -77,5 +85,49 @@
         </p>
       </section>
     </main>
+    <script>
+      (async () => {
+        const container = document.getElementById("all-repos");
+        if (!container) return;
+
+        try {
+          const res = await fetch("https://api.github.com/users/DenisArger/repos?per_page=100");
+          const repos = await res.json();
+          const visible = repos
+            .filter((r) => !r.fork)
+            .sort((a, b) => new Date(b.pushed_at) - new Date(a.pushed_at));
+
+          if (!visible.length) {
+            container.innerHTML = "<p>No repositories found.</p>";
+            return;
+          }
+
+          const cards = visible.map((r) => {
+            const card = document.createElement("article");
+            card.className = "card";
+
+            const title = document.createElement("h3");
+            title.textContent = r.name;
+            card.appendChild(title);
+
+            const desc = document.createElement("p");
+            desc.textContent = r.description || "No description provided yet.";
+            card.appendChild(desc);
+
+            const link = document.createElement("a");
+            link.href = r.html_url;
+            link.target = "_blank";
+            link.rel = "noreferrer";
+            link.textContent = "Open repository";
+            card.appendChild(link);
+
+            return card;
+          });
+          container.replaceChildren(...cards);
+        } catch (err) {
+          container.innerHTML = "<p>Failed to load repositories from GitHub API.</p>";
+        }
+      })();
+    </script>
   </body>
 </html>
