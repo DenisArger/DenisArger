@@ -4,6 +4,13 @@ Backend / Automation / AI Integrations Engineer
 
 I build practical systems around Telegram bots, serverless backends, integrations (Notion, Google, Supabase), and automation workflows.
 
+## Impact
+
+- 21 public repositories actively maintained
+- 13 core repositories updated in one standardization wave (README + LICENSE + topics)
+- Multi-stack delivery across Node.js/TypeScript and Python projects
+- Production-focused patterns: CI, safer docs/configs, and deployment-ready repositories
+
 ## Featured Projects
 
 ### 1) [telegram-event-registration-service](https://github.com/DenisArger/telegram-event-registration-service)
@@ -58,6 +65,15 @@ Stack: Node.js, Netlify Functions, Notion API.
 - https://github.com/DenisArger/ApiNodeJs
 - https://github.com/DenisArger/telegram-gitea-bot
 - https://github.com/DenisArger/notion-proxy
+
+## Case Studies
+
+- [Event Registration SaaS Case Study](./case-studies/event-registration-saas.md)
+- [Work Reports Bot Case Study](./case-studies/work-reports-bot.md)
+
+## About (Profile Header Draft)
+
+Backend engineer building Telegram-first automation systems with Node.js/TypeScript, Python, and API integrations (Supabase, Notion, Google, OpenAI).
 
 ## Contact
 
