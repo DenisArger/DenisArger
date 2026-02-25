@@ -70,10 +70,14 @@ Stack: Python, PySide6, SQLite.
 
 - [Event Registration SaaS Case Study](./case-studies/event-registration-saas.md)
 - [Work Reports Bot Case Study](./case-studies/work-reports-bot.md)
+- [Projects Summary (1-page)](./PROJECTS_SUMMARY.md)
 
 ## About
 
 Backend engineer building Telegram-first automation systems with Node.js/TypeScript, Python, and API integrations (Supabase, Notion, Google, OpenAI).
+
+GitHub About (short):
+`Backend engineer focused on Telegram automation, serverless APIs, and AI integrations (Node.js/TypeScript, Python, Supabase, OpenAI).`
 
 ## Contact
 
