@@ -85,3 +85,9 @@ GitHub About (short):
 ## Contact
 
 - GitHub: https://github.com/DenisArger
+
+## Portfolio Page
+
+- Source: `docs/index.html`
+- GitHub Pages URL (after enabling Pages): https://denisarger.github.io/
+- Enable in repo settings: `Settings -> Pages -> Build and deployment -> Deploy from a branch -> main /docs`
