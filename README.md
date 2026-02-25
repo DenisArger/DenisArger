@@ -62,9 +62,9 @@ Stack: Node.js, Netlify Functions, Notion API.
 - https://github.com/DenisArger/telegram-event-registration-service
 - https://github.com/DenisArger/church-management-js
 - https://github.com/DenisArger/work-reports
-- https://github.com/DenisArger/ApiNodeJs
-- https://github.com/DenisArger/telegram-gitea-bot
-- https://github.com/DenisArger/notion-proxy
+- https://github.com/DenisArger/MyAI
+- https://github.com/DenisArger/Track_parser
+- https://github.com/DenisArger/ControlWork
 
 ## Case Studies
 
