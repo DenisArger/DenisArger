@@ -10,6 +10,8 @@ I build practical systems around Telegram bots, serverless backends, integration
 - 13 core repositories updated in one standardization wave (README + LICENSE + topics)
 - Multi-stack delivery across Node.js/TypeScript and Python projects
 - Production-focused patterns: CI, safer docs/configs, and deployment-ready repositories
+- Latest CI run status across key repositories: passing
+- Quality baseline established: README + LICENSE + lint + test + CI for active projects
 
 ## Featured Projects
 
@@ -71,6 +73,7 @@ Stack: Python, PySide6, SQLite.
 - [Event Registration SaaS Case Study](./case-studies/event-registration-saas.md)
 - [Work Reports Bot Case Study](./case-studies/work-reports-bot.md)
 - [Projects Summary (1-page)](./PROJECTS_SUMMARY.md)
+- [Quality Status](./QUALITY_STATUS.md)
 
 ## About
 
